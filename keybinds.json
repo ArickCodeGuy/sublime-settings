@@ -1,0 +1,45 @@
+[
+    // Wrap with Abbreviation
+    {
+        "keys": ["shift+ctrl+g"],
+        "command": "emmet_wrap_with_abbreviation",
+        "context": [{"key": "setting.is_widget",  "operand": false }]
+    },
+    // Increment/Decrement Number
+    {
+        "keys": ["ctrl+up"],
+        "command": "emmet_increment_number",
+        "args": { "delta": 1 }
+    },
+    {
+        "keys": ["ctrl+down"],
+        "command": "emmet_increment_number",
+        "args": { "delta": -1 }
+    },
+    // Rename Tag
+    {
+        "keys": ["shift+ctrl+'"],
+        "command": "emmet_rename_tag"
+    },
+    // auto indent
+    {
+        "keys": ["alt+shift+f"], "command": "reindent",
+        "args": 
+        {
+            "single_line": false
+        }
+    },
+
+    // Go to Next Edit Point
+    {
+        "keys": ["ctrl+alt+right"],
+        "command": "emmet_go_to_edit_point"
+    },
+
+    // Go to Previous Edit Point
+    {
+        "keys": ["ctrl+alt+right"],
+        "command": "emmet_go_to_edit_point",
+        "args": { "previous": true }
+    }
+]
