@@ -30,16 +30,16 @@
         }
     },
 
-    // Go to Next Edit Point
+    // Select Next Item
     {
-        "keys": ["ctrl+alt+right"],
-        "command": "emmet_go_to_edit_point"
+        "keys": ["shift+ctrl+."],
+        "command": "emmet_select_item"
     },
 
-    // Go to Previous Edit Point
+    // Select Previous Item
     {
-        "keys": ["ctrl+alt+right"],
-        "command": "emmet_go_to_edit_point",
+        "keys": ["shift+ctrl+,"],
+        "command": "emmet_select_item",
         "args": { "previous": true }
     }
 ]
